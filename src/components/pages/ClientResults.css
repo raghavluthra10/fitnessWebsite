@@ -1,0 +1,115 @@
+.clientResultsContainer {
+    background-color: #1d1e1f;
+    height: 100%;
+    color: white;
+    margin-top: -20px;
+    text-align: center;
+    padding: 0px 100px 150px 100px;
+}
+
+.bodyTransformationHeading {
+    color: white;
+    font-size: 52px;
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+.testimonials {
+    display: inline;
+    height: 350px;
+    width: 450px;
+    border-radius: 5px;
+    margin-top: 150px;
+    cursor: pointer;
+}
+
+.testimonialGroup1 {
+    display: block;
+}
+
+.testimonialGroup2 {
+    display: block;
+    
+}
+
+.testimonialGroup3 {
+    display: block;    
+}
+
+#firstChild1, #firstChild2, #firstChild3 {
+    margin-right: 150px;
+}
+
+.testimonials:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 1270px) {
+    .testimonials {
+        display: block;
+        margin: 100px auto;
+    }
+
+    #firstChild1, #firstChild2, #firstChild3 {
+        margin-right: auto;
+    }    
+}
+
+@media screen and (max-width: 880px) {
+    .testimonials {
+        height: 300px;
+        width: 400px;
+    }
+
+    .bodyTransformationHeading {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 662px) {
+    .testimonials {
+        height: 250px;
+        width: 350px;
+        margin: 80px auto;
+    }
+
+    .bodyTransformationHeading {
+        font-size: 32px;
+    }
+
+    .clientResultsContainer {
+        padding: 0px 70px 100px 70px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .clientResultsContainer {
+        padding: 0px 50px 80px 50px;
+    }
+
+    .testimonials {
+        height: 180px;
+        width: 280px;
+        margin: 50px auto;
+    }
+
+    .bodyTransformationHeading {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .clientResultsContainer{
+        padding: 0px 30px 20px 30px;
+    }
+
+    .testimonials {
+        height: 150px;
+        width: 230px;
+    }
+
+    .bodyTransformationHeading {
+        font-size: 18px;
+    }
+}

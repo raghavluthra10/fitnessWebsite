@@ -1,0 +1,95 @@
+.contactUsContainer {
+    background-color: #1d1e1f;
+    height: 100vh;
+    margin-top: -20px;
+    color: white;
+    text-align: center;
+
+}
+
+.introContactUs {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 52px;
+}
+
+.contactUsForm {
+    color: rgb(192, 187, 187);
+    font-size: 16px;
+    }
+
+.formName, .formEmail, .formSubject, .formMessage {
+    background-color: #3b3c3d;
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.contactSubmit {
+    margin-top: 20px;
+}
+
+.formMessage {
+    height: 200px;
+    text-align: left;
+    resize: vertical;
+    word-wrap: break-word;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    vertical-align: top;
+    background-color: #3b3c3d;
+    width: 600px;
+    border-radius: 5px;
+}
+
+.formEmail {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.formName {
+    margin-top: 30px;
+    text-align: left;
+
+}
+
+.formSubject {
+    margin-top: 30px;
+    text-align: left;
+}
+
+@media screen and (max-width: 735px) {
+    .formName, .formEmail, .formSubject, .formMessage {
+        width: 500px;
+    }
+
+    .introContactUs {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .formName, .formEmail, .formSubject, .formMessage {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .formName, .formEmail, .formSubject, .formMessage {
+        width: 300px;
+    }
+
+    .introContactUs {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .formName, .formEmail, .formSubject, .formMessage {
+        width: 250px;
+    }
+
+    .introContactUs {
+        font-size: 28px;
+    }
+}

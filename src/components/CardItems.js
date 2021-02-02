@@ -1,20 +1,21 @@
 import React from 'react'
 import './CardItems.css'
+import { Link } from 'react-router-dom';
 
 const CardItems = (props) => {
     return (
-        <>
-        <div className='cards'>
-            <div className='cardItems'>
-                <img src={props.src} alt={props.alt} className='cardImage' />
-                <div className='cardInfo'>
-                    <h3 className='cardTitle'> {props.title} </h3>
-                    <button> Explore </button>
-                </div>
-            </div>
-        </div>
-        </>
-    )
-}
+    <divs>
+        <Link>
+            <div className='cardsContainer'>
+                <Link to={props.destination}>
+                    <img className='cardImage' src={props.src} alt={props.alt} className='cardImage' />
+                    <div className='cardTitle'> {props.title} </div>  
+                </Link>
+          
+            </div>        
+        </Link>
+    </divs>
+
+    )}
 
 export default CardItems

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { FaFacebookSquare } from 'react-icons/fa';
 import { FaInstagramSquare } from 'react-icons/fa';
 import { FaTwitterSquare } from 'react-icons/fa';
+import Button from './Button';
 
 
 const Newsletter = () => {
@@ -14,14 +15,20 @@ const Newsletter = () => {
 
 
     return (
-        <div className='container'>
+        <div className='newsletterContainer'>
                 <h3 className='newsletterHeading'>
-                    Join us and we will help you tick off destinations from your travel bucket list.
+                    SIgn-up for our newsletter to get regular updates.
                 </h3>
 
             <form>
-                <input className='inputText' type='text' placeholder='email@example.com' ></input>
-                <input className='inputSubmit' type='submit' ></input>
+                <input className='newsletterInputText' type='text' placeholder='email@example.com' ></input>
+                <Button 
+                className='newsletterinputSubmit'
+                buttonStyle='btn--primary'
+                buttonSize='btn--newsletterSubmit'
+                buttonColor='red'
+                children='submit'
+                />
             </form>
 
             <div className='socialMediaHandles'>

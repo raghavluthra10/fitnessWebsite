@@ -1,0 +1,49 @@
+.aboutContainer {
+    background-color: #1d1e1f;
+    margin-top: -20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.aboutHeader {
+    text-align: center;
+    text-decoration: underline;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.aboutInfo {
+    padding: 100px;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 1100px) {
+    .aboutContainer {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .aboutContainer {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .aboutInfo {
+        padding: 100px 50px 100px 50px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .aboutInfo {
+        padding: 80px 30px 80px 30px;
+    }
+}

@@ -2,6 +2,11 @@
     --primary: #fff;
 }
 
+.btn--newsletterSubmit {
+    height: 40px;
+    border-radius: 5px;
+}
+
 .btn {
     padding: 8px 20px;
     border-radius: 4px;
@@ -18,7 +23,7 @@
 }
 
 .btn--outline {
-    background-color: transparent;
+    background-color: black;
     color: #fff;
     padding: 8px 20px;
     border: 1px solid var(--primary);
@@ -60,7 +65,7 @@
 
 .btn--wide:hover {
     color: #fff;
-    background-color: #f00946;
+    background-color: #B60000;
     transition: all 0.2s ease-out;
 }
 
@@ -71,7 +76,7 @@
 }
 
 .red {
-    background-color: #f00946;
+    background-color: #B60000;
     color: #fff;
     border: none;
 }

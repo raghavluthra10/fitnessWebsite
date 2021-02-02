@@ -1,32 +1,31 @@
-.container {
-    background-color: rgb(63, 63, 63);
+.newsletterContainer {
+    background-image: url('../images/liftnew.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
-    padding-right: 120px;
-    padding-left: 120px;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 70px 120px 70px 120px;
     font-size: 16px;
     width: 100%;
     color: ivory;
+    height: 380px;
 }
 
 form {
-    color: black;
+    color: black; 
 }
 
 .copyright {
     color: ivory;   
 }
 
-.inputText {
+.newsletterInputText {
     height: 40px;
     width: 400px;
     display: inline;
-    border: solid black;
     border-radius: 5px;
 }
 
-.inputSubmit {
+.newsletterInputSubmit {
     height: 40px;
     display: inline;
     border: solid black;
@@ -47,6 +46,48 @@ form {
     text-align: center;
     margin-top: 30px;
 }
+
+@media screen and (max-width: 725px) {
+    .newsletterContainer {
+        height: 100%;
+        padding: 30px 100px 30px 100px;
+        text-align: center;
+    }
+
+    .newsletterInputSubmit {
+        text-align: center;
+        display: inline-block
+    }
+    
+    .newsletterInputText {
+        width: 400px;
+        display: inline-block;
+    }
+
+    .newsletterHeading {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .newsletterInputText {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .newsletterInputText {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .newsletterInputText {
+        width: 200px;
+    }
+}
+
 
 
 

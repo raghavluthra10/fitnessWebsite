@@ -1,0 +1,125 @@
+.aboutSectionBody {
+    margin-top: -20px;
+    background-color:black;
+    color: white;
+    height: 100%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+}
+
+.AboutSectionText {
+    color: white;
+    width: 50%;
+    line-height: 50px;
+    font-size: 18px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.aboutSectionImage {
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.aboutSectionMyPhoto {
+    border-radius: 5px;
+    height: 600px;
+    width: 560px;
+}
+
+.aboutSectionButton {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+    .aboutSectionMyPhoto {
+        height: 480px;
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 976px) {
+    .aboutSectionMyPhoto {
+        height: 400px;
+        width: 300px;
+    }
+
+    .AboutSectionText {
+        font-size: 16px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .aboutSectionBody{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .aboutSectionMyPhoto {
+        height: 300px;
+        width: 250px;
+
+    }
+
+    .AboutSectionText {
+        font-size: 14px;
+        line-height: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .aboutSectionMyPhoto {
+        height: 250px;
+        width: 220px;
+    }
+
+    .AboutSectionText {
+        font-size: 12px;
+        line-height: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        
+    }
+
+    .aboutSectionButton {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .aboutSectionBody {
+        text-align: center;
+    }
+
+    .aboutSectionMyPhoto {
+        height: 300px;
+        width: 270px;
+    }
+
+    .aboutSectionImage {
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
+    .AboutSectionText {
+        margin-top: 50px;
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+
+}
+

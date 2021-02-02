@@ -1,0 +1,150 @@
+.howItWorksContainer {
+    background-color: #1d1e1f;
+    height: 100%;
+    color: white;
+    margin-top: -20px;
+    padding: 100px;
+    text-align: center;
+
+}
+
+.fitnessAssessment, .gettingStarted, .customProgram, .weeklyCheckins, .photoAssessment, .adjustments {
+    width: 500px;
+    color: white;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 100px;
+    vertical-align: top;
+    
+}
+
+.fitnessAssessmentHeading, .gettingStartedHeading, .customProgramHeading, .weeklyCheckinsHeading, .photoAssessmentHeading, .adjustmentsHeading {
+    color: white;
+    font-size: 40px;
+}
+
+.fitnessAssessmentDesc, .gettingStartedDesc, .customProgramDesc, .weeklyCheckinsDesc, .photoAssessmentDesc, .adjustmentsDesc {
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+#firstChildHowItWorks {
+    margin-right: 100px;
+}
+
+.howItWorksIcons {
+    color: #B60000;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 1300px) {
+    .howItWorksContainer {
+        padding: 80px;
+    }
+
+    .fitnessAssessment, .gettingStarted, .customProgram, .weeklyCheckins, .photoAssessment, .adjustments {
+        width: 400px;
+    }
+
+    .fitnessAssessmentHeading, .gettingStartedHeading, .customProgramHeading, .weeklyCheckinsHeading, .photoAssessmentHeading, .adjustmentsHeading {
+        font-size: 32px;
+    }
+
+    .fitnessAssessmentDesc, .gettingStartedDesc, .customProgramDesc, .weeklyCheckinsDesc, .photoAssessmentDesc, .adjustmentsDesc {
+        font-size: 14px;
+    }    
+}
+
+@media screen and (max-width: 1060px) {
+    .howItWorksContainer {
+        padding: 60px;
+    }
+
+    .fitnessAssessment, .gettingStarted, .customProgram, .weeklyCheckins, .photoAssessment, .adjustments {
+        width: 350px;
+    }
+
+    .fitnessAssessmentHeading, .gettingStartedHeading, .customProgramHeading, .weeklyCheckinsHeading, .photoAssessmentHeading, .adjustmentsHeading {
+        font-size: 28px;
+    }
+
+    .fitnessAssessmentDesc, .gettingStartedDesc, .customProgramDesc, .weeklyCheckinsDesc, .photoAssessmentDesc, .adjustmentsDesc {
+        font-size: 14px;
+    }    
+}
+
+@media screen and (max-width: 920px) {
+    .howItWorksContainer {
+        padding: 60px;
+
+    }
+
+    .fitnessAssessment, .gettingStarted, .customProgram, .weeklyCheckins, .photoAssessment, .adjustments {
+        width: 500px;
+        display: block;
+        margin: 80px auto;
+                
+    }
+
+    .fitnessAssessmentHeading, .gettingStartedHeading, .customProgramHeading, .weeklyCheckinsHeading, .photoAssessmentHeading, .adjustmentsHeading {
+        font-size: 32px;
+    }
+
+    .fitnessAssessmentDesc, .gettingStartedDesc, .customProgramDesc, .weeklyCheckinsDesc, .photoAssessmentDesc, .adjustmentsDesc {
+        font-size: 14px;
+    }    
+
+    #firstChildHowItWorks {
+        margin-right: auto;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .howItWorksContainer {
+        padding: 40px;
+    }
+
+    .fitnessAssessment, .gettingStarted, .customProgram, .weeklyCheckins, .photoAssessment, .adjustments {
+        width: 300px;
+        margin: 40px auto;
+    }
+
+    .fitnessAssessmentHeading, .gettingStartedHeading, .customProgramHeading, .weeklyCheckinsHeading, .photoAssessmentHeading, .adjustmentsHeading {
+        font-size: 22px;
+    }
+
+    .fitnessAssessmentDesc, .gettingStartedDesc, .customProgramDesc, .weeklyCheckinsDesc, .photoAssessmentDesc, .adjustmentsDesc {
+        font-size: 10px;
+        line-height: 20px;
+    }        
+
+    .howItWorksIcons {
+        color: #B60000;
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .howItWorksContainer {
+        padding: 30px;
+    }
+
+    .fitnessAssessment, .gettingStarted, .customProgram, .weeklyCheckins, .photoAssessment, .adjustments {
+        width: 270px;
+        margin: 30px auto;
+    }
+
+    .fitnessAssessmentHeading, .gettingStartedHeading, .customProgramHeading, .weeklyCheckinsHeading, .photoAssessmentHeading, .adjustmentsHeading {
+        font-size: 18px;
+    }
+
+    .fitnessAssessmentDesc, .gettingStartedDesc, .customProgramDesc, .weeklyCheckinsDesc, .photoAssessmentDesc, .adjustmentsDesc {
+        line-height: 15px;
+    }    
+
+    .howItWorksIcons {
+        font-size: 28px;
+    }
+}

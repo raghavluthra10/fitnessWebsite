@@ -1,87 +1,133 @@
+
 .navbar {
-    background: rgb(63, 63, 63);
-    font-size: 18px;
-    height: 70px;
-    padding-top: 14px;
-    color: cornsilk;
+    height: 60px;
+    background-color: #af0303	;
     border-radius: 0;
-    text-decoration: none;
-    padding-left: 20px;
-    padding-right: 20px;
+    font-family: 'Lato', sans-serif;
+;
+}
+
+.handleClick {
+    display: none;
 }
 
 .logo {
-    margin-top: 10px;
-    width: 100px;
+    margin-top: 15px;
+    line-height: 30px;
+    margin-left: 40px;
     text-decoration: none;
+    color: black;
+    width: 200px;
+}
+
+.menuDiv li {
+    display: inline-grid;
+    grid-template-columns: repeat(5, auto);
+    list-style: none;
+    margin-right: 30px;
+    vertical-align: baseline;
+    text-decoration: none;
+    text-align: center;
+    padding: 0;
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.inline-block {
     display: inline-block;
 }
 
 .menuDiv {
-    display: inline;
+    margin-right: 40px;
     float: right;
 }
 
-.slide {
-    margin-right: 20px;
-    display: inline-block;
+
+.menuDiv li:hover {
+  background-color: #d60505;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: all 0.2s ease-out;
 }
 
-.handleClick {
-    color: rgb(241, 209, 209);
-    margin-top: 10px;
-    float: right;
-    display: none;
-}
-
-.slide :hover{
-    color: rgb(184, 184, 184);
+a:link {
+    color: rgb(255, 255, 255);
     text-decoration: none;
-}
-
-.logo:hover {
-    color: rgb(184, 184, 184);
+  }
+  
+a:visited {
+    color: rgb(255, 255, 255);
     text-decoration: none;
-}
+  }
 
-.signInBtn {
-    background: rgb(88, 88, 88);
-    border-radius: 5px;
-}
+a:active {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
 
 @media screen and (max-width: 960px) {
-    .handleClick {
-        display: flex;
-        float: inline-end;
-        }
-
-    .navbar {
-        font-size: 14px;
-        height: 50px;
-        padding-top: 5px;
-    }
-
-    .slide {
-        display: block;
-        margin-top: 20px;
-        justify-content: center;
-        text-align: center;
+  .handleClick {
+    color: white;
+    display: inline;
+    float: right;
+    margin-top: 18px;
+    margin-right: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 13px;
     }
 
     .menuItems {
-        left: -100px;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      left: 0%;
+      top: 0;
+      height: 100vh;
+      background-color: #1d1e1f;
+      transform: translate(-500px);
     }
 
-    
-    .menuItems.active {
-        background: #a7a7a7;
-        opacity: 1;
-        transition: all 0.5s ease;
-        width: 100%;
-        
-
+    .menuItemsActive {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      left: 0%;
+      top: 0;
+      height: 100vh;
+      background-color: #1d1e1f;
+      transform: translate(-2px, -2px );
+      transition: all 0.2s ease-out;
     }
 
-    
-    
+    .menuDiv li {
+      display: flex;
+      flex-direction: column;
+      line-height: 60px;
+    }
+
+    .menuDiv li :visited {
+      text-decoration: none;
+      color: white;
+    }
+
+    .menuDiv li:link {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+
+    .menuDiv li:active {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
 }
+
+@media screen and (max-width: 310px) {
+  .logo {
+    margin-left: 15px;
+    font-size: 18px;
+  }
+}
+  
