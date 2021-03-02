@@ -24,7 +24,7 @@ const ProgramCard = (props) => {
             buttonColor='red'
             buttonStyle='btn--primary'
             buttonSize='btn--mobile'
-            children='START TODAY'
+            children='START'
             />
         </div>
     )

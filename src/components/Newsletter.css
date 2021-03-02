@@ -50,7 +50,7 @@ form {
 @media screen and (max-width: 725px) {
     .newsletterContainer {
         height: 100%;
-        padding: 30px 100px 30px 100px;
+        padding: 30px 30px 30px 30px;
         text-align: center;
     }
 
@@ -84,7 +84,11 @@ form {
 
 @media screen and (max-width: 430px) {
     .newsletterInputText {
-        width: 200px;
+        width: 150px;
+    }
+
+    .newsletterInputSubmit {
+        width: 80px;
     }
 }
 

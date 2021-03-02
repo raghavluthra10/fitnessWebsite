@@ -15,20 +15,31 @@ const AboutUs = () => {
             <h1 className='aboutHeader'>
                     ABOUT
             </h1> 
+
+            <h3 className='aboutInfo'>
+            Our goal is to make health and fitness attainable, affordable and approachable.
+            </h3>
             
         <div className='aboutInfo'>
-            There are many variations of passages of Lorem Ipsum available, 
-            but the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly believable.
-            If you are going to use a passage of Lorem Ipsum, you need to be sure 
-            there isn't anything embarrassing hidden in the middle of text. 
-            All the Lorem Ipsum generators on the Internet tend to repeat predefined 
-            chunks as necessary, making this the first true generator on the Internet. 
-            It uses a dictionary of over 200 Latin words, combined with a handful of 
-            model sentence structures, to generate Lorem Ipsum which looks reasonable. 
-            The generated Lorem Ipsum is therefore always free from repetition, injected 
-            humour, or non-characteristic words etc.
+        We believe fitness should be accessible to everyone, everywhere,
+        regardless of income level or access to a gym. That's why we offer 
+        hundreds of free, full-length workout videos, the most affordable and 
+        effective workout programs on the web, meal plans, and helpful health, 
+        nutrition and fitness inform
         </div>
+
+        <br/>
+
+        <h2 className='aboutInfo'>
+            We believe in unbiased, gimmick-free, research-backed information
+        </h2>
+
+        <div className='aboutInfo'>
+            The only thing we endorse is eating unprocessed, whole foods, and 
+            working out for a strong, healthy body. As a business, we believe 
+            good things happen when you put people before profit.
+
+        </div>   
         
 
 
