@@ -16,33 +16,30 @@ const AboutUs = () => {
                     ABOUT
             </h1> 
 
-            <h3 className='aboutInfo'>
-            Our goal is to make health and fitness attainable, affordable and approachable.
-            </h3>
-            
-        <div className='aboutInfo'>
-        We believe fitness should be accessible to everyone, everywhere,
-        regardless of income level or access to a gym. That's why we offer 
-        hundreds of free, full-length workout videos, the most affordable and 
-        effective workout programs on the web, meal plans, and helpful health, 
-        nutrition and fitness inform
-        </div>
+            <div className='aboutInfo'>
+                Our goal is to make health and fitness attainable, affordable and approachable.
+            </div>
+                
+            <div className='aboutInfo'>
+                We believe fitness should be accessible to everyone, everywhere,
+                regardless of income level or access to a gym. That's why we offer 
+                hundreds of free, full-length workout videos, the most affordable and 
+                effective workout programs on the web, meal plans, and helpful health, 
+                nutrition and fitness inform
+            </div>
 
-        <br/>
+            <br/>
 
-        <h2 className='aboutInfo'>
-            We believe in unbiased, gimmick-free, research-backed information
-        </h2>
+            <h2 className='aboutInfo'>
+                We believe in unbiased, gimmick-free, research-backed information
+            </h2>
 
-        <div className='aboutInfo'>
-            The only thing we endorse is eating unprocessed, whole foods, and 
-            working out for a strong, healthy body. As a business, we believe 
-            good things happen when you put people before profit.
+            <div className='aboutInfo'>
+                The only thing we endorse is eating unprocessed, whole foods, and 
+                working out for a strong, healthy body. As a business, we believe 
+                good things happen when you put people before profit.
 
-        </div>   
-        
-
-
+            </div>   
         </div>
 
         <Newsletter  />

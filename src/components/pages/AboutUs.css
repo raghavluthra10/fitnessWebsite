@@ -25,6 +25,7 @@
     font-weight: lighter;
     line-height: 30px;
     margin-bottom: 50px;
+    font-size: 18px;
 }
 
 @media screen and (max-width: 1100px) {
@@ -34,20 +35,31 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 810px) {
     .aboutContainer {
         padding-right: 20px;
         padding-left: 20px;
     }
 
+    .aboutHeader {
+        margin-bottom: 50px;
+    }
+
     .aboutInfo {
-        padding: 100px 50px 100px 50px;
+        padding: 5px 50px;
+        font-size: 14px;
     }
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
+    .aboutContainer {
+        height: 100%;
+        margin-bottom: -55px;
+        padding-bottom: 100px;
+    }
+
     .aboutInfo {
-        padding: 80px 30px 80px 30px;
+        padding:  2px 40px;
     }
 }
